@@ -19,9 +19,9 @@ jobs:
 
     - name: Install Rust
       uses: dtolnay/rust-toolchain@stable
-
-    - name: Install Slint CLI
-      run: cargo install slint-cli
+      
+    - name: Install Slint
+      run: cargo install slint
 
     - name: Build
       run: cargo build --verbose
