@@ -2922,8 +2922,10 @@ dependencies = [
 name = "mindown"
 version = "0.1.0"
 dependencies = [
+ "serde",
  "slint",
  "slint-build",
+ "toml",
 ]
 
 [[package]]

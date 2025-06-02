@@ -1,0 +1,22 @@
+[[nodes]]
+id = 1
+title = "根节点"
+children = [2, 3]
+content = """
+# 内容
+这是根节点。"""
+
+[[nodes]]
+id = 2
+title = "子节点1"
+content = "## 子节点1内容"
+
+[[nodes]]
+id = 3
+title = "子节点2"
+content = "## 子节点2内容"
+
+[[nodes]]
+id = 4
+title = "新节点"
+content = "# 新内容"
