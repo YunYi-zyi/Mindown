@@ -1,3 +1,4 @@
+// 节点相关操作
 // src/node/mod.rs
 use serde::{Deserialize, Serialize};
 
@@ -22,4 +23,23 @@ pub struct Node {
 pub struct MindownData {
     /// 包含所有节点的向量
     pub nodes: Vec<Node>,
+}
+
+impl Default for MindownData {
+    fn default() -> Self {
+        MindownData { nodes: Vec::new() }
+    }
+}
+
+pub fn add_node(data: &mut MindownData, id: u64, title: String, content: String) {
+    data.nodes.push(Node {
+        id: id,
+        title: title,
+        content: content,
+        children: None,
+    });
+}
+
+pub fn delete_node(data: &mut MindownData, id: u64) {
+    data.nodes.retain(|node| node.id != id);
 }
