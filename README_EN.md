@@ -71,8 +71,10 @@ Mindown/
 4. Create a Pull Request with detailed description
 
 ## License
-This project is licensed under the [GNU General Public License v3.0](LICENSE)  
-© 2025-present zyi-ops and contributors
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
+This project uses the Slint UI framework under the Slint Royalty-free License v2.0.  
+Please refer to [https://slint.dev/license](https://slint.dev/license) for details.
 
 ## Contact
 - Submit Issues for feature requests/bugs
