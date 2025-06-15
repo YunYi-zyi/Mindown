@@ -70,9 +70,11 @@ Mindown/
 3. 提交符合 [Conventional Commits](https://www.conventionalcommits.org/) 规范的 commit  
 4. 创建 Pull Request 并附上详细说明  
 
-## 许可证  
-本项目采用 [GNU General Public License v3.0](LICENSE)  
-© 2025-present zyi-ops 及贡献者  
+## 许可证
+本项目采用 MIT 许可证，请参阅 LICENSE 文件获取详细信息。
+
+本项目使用 Slint UI 框架，遵循 Slint Royalty-free License v2.0。
+有关详细信息，请访问 https://slint.dev/license。
 
 ## 联系方式  
 - 提交 Issue 讨论需求/缺陷  
